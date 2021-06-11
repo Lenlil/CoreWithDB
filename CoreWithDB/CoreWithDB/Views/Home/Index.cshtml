@@ -1,0 +1,19 @@
+﻿<div class="main-wrapper">
+    <!-- Start service Area -->
+    <section class="service-area pt-100" id="feature">
+        <div class="container">           
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-service">
+                        <h4><span class="lnr lnr-user"></span>List of employees</h4>                      
+                            @foreach (var employee in Model)
+                            {
+                                <p>@employee.Name</p>
+                            }                                               
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </section>
+</div>
+<!-- End service Area -->
